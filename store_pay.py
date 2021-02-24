@@ -4,6 +4,13 @@
 
 
 
+
+
+
+
+
+
+
 def change_enough(change, amount_due):
 	lst = [25, 10, 5, 1]
 	return sum([(change[x]*lst[x])/100 for x in range(4)])>=amount_due
